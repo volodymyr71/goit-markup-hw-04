@@ -153,6 +153,12 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   background: var(--background-footer);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img-hero-background.jpg);
+  max-width: 1600px;
+  background-repeat: no-repeat;
+  background-position: top left, top right, center; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
