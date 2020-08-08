@@ -239,8 +239,9 @@ align-items: flex-end;
 }
 
 .h3-title-features {
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 10px;
+  font-size: 14px;
   font-weight: bold;
   line-height: 1.143;
   text-transform: uppercase;
@@ -259,6 +260,14 @@ align-items: flex-end;
 .futures-item {
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
+}
+/* ---------------------------------------- */
+.futures-icon {
+  height: 120px;
+  background-color: var(--background-team-box);
+  padding: 25px 100px;
+
+
 }
 
 .about-us-list {
@@ -424,7 +433,7 @@ height: 44px;
   fill: var(--white-color);
 }
 
-/* Для футера ---------------------------------- */
+/* Для футера icons---------------------------------- */
 
 .social-icons-list-footer {
   display: flex;
