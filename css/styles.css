@@ -73,6 +73,7 @@ body {
 
 .menu-list {
   display: flex;
+ 
 }
 
 .menu-item:not(:last-child) {
@@ -117,6 +118,11 @@ body {
 .mail-link-header {
   margin-right: 30px;
 }
+
+.mail-icon-header {
+align-items: flex-end;
+}
+
 
 .contacts-link-footer {
   line-height: 1, 714;
@@ -418,6 +424,43 @@ height: 44px;
   fill: var(--white-color);
 }
 
+/* Для футера ---------------------------------- */
+
+.social-icons-list-footer {
+  display: flex;
+  padding-bottom: 24px;
+  justify-content: center;
+}
+
+.social-icons-item-footer:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-icons-link-footer {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+width: 44px;
+height: 44px;
+background: rgba(255, 255, 255, 0.1);
+}
+
+.social-icon-footer {
+  fill: var(--white-color);
+}
+
+.social-icons-link-footer:hover,
+.social-icons-link-footer:focus {
+  background-color: var(--accent-color);
+}
+
+.social-icons-link-footer:hover .social-icon,
+.social-icons-link-footer:focus .social-icon {
+  fill: var(--white-color);
+}
+
+/* ------------------------------------------------ */
 
 .footer-bg {
   background: var(--background-footer);
