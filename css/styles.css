@@ -119,8 +119,10 @@ body {
   margin-right: 30px;
 }
 
-.mail-icon-header {
+.icon-header {
 align-items: flex-end;
+margin-right: 10px;
+fill: currentColor;
 }
 
 
@@ -194,7 +196,10 @@ align-items: flex-end;
   letter-spacing: 0.06em;
   color: var(--white-color);
   background: var(--accent-color);
+  border: 1px solid transparent;
   border-radius: 4px;
+  min-width: 200px;
+  padding: 10px 32px;
 }
 
 .button-portfolio {
